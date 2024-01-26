@@ -1,0 +1,12 @@
+.expandedImageAnimation {
+  animation: expandAnimation 0.5s ease-out;
+}
+
+@keyframes expandAnimation {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
